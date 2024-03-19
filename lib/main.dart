@@ -28,10 +28,11 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
+        fontFamily: 'ProtestStrike',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Fixando Conteúdo'),
+      home: const MyHomePage(title: 'Pratikar'),
     );
   }
 }
@@ -117,10 +118,6 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             const Text(
-              style: TextStyle(
-                fontSize: 25,
-                fontFamily: 'ProtestStrike',
-              ),
               ' vezes',
             ),
           ],
